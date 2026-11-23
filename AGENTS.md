@@ -5,14 +5,13 @@ Escuela presencial de BMX Race en Chihuahua. Proyecto con Jorge Acosta; Sebas ll
 ## Estado (23 nov 2026)
 
 - Cascarón de landing en `public/index.html` (HTML/CSS/JS estático, sin compilación; modelo Luigi's Clean). Todo lo que falta está marcado con `<span class="pend">Pendiente</span>` y hay una lista de pendientes al final de la página. Banner de "Borrador interno" arriba y `noindex`: quitar ambos al publicar.
-- Vista previa privada como artifact de claude.ai para Jorge y Sebas.
-- Aún sin Worker en Cloudflare ni dominio.
+- Publicado de prueba en el Worker `escuela-bmx`: https://escuela-bmx.srab17-6.workers.dev (build vacío, deploy `npx wrangler deploy`, producción en `main`). Sin dominio todavía.
 
 ## Datos confirmados
 
 - Sedes: pista **La Cantera** (Parque Extremo La Cantera) y **ciclopista de la Ciudad Deportiva**. Bowl: lugar pendiente.
 - Horario: martes y jueves 6:00 pm pista; miércoles 6:00 pm ciclopista; sábado 9:00 am bowl. Semillero martes y jueves (hora pendiente).
-- Edades: Semillero de 3–4 a 6 años con bici de balance (strider); de 6 en adelante, ya con pedales, entrenan con los demás. Niveles: principiante, intermedio, experto (puede quedar en 2).
+- Edades: Semillero de 3–4 a 6 años con bici de balance (strider); de 6 en adelante, ya con pedales, entrenan con los demás. Después del Semillero hay 2 niveles: Nivel 1 = principiante e intermedio; Nivel 2 = experto.
 - Precios tentativos: Semillero $1,200/mes; demás $1,000/mes. Inscripción y clase muestra pendientes.
 - Entrenador principal: **Fabián** (corredor de BMX). Auxiliares sin nombre todavía (Carlos Luis Mateo no ha confirmado: no ponerlo).
 - Ya tienen sensores y ProGate.
