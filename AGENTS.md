@@ -21,6 +21,7 @@ Escuela presencial de BMX Race en Chihuahua. Proyecto con Jorge Acosta; Sebas ll
 ## Tono y mensaje
 
 - Diferenciador: **metodología**. Entrenan corredores profesionales (Jorge pidió plural, 23 nov 2026) y entrenan "lado a lado" (side by side: el entrenador rueda junto al niño simulando competencia). Entrena alguien que ha sentido la bici (no solo condición física y fuerza) y enseña con tacto y paciencia para que los niños quieran seguir.
+- Por qué nace (Héctor, socio, 25 nov 2026): que los niños aprendan y se diviertan (si no, se aburren y se van en 5–6 años); técnicas y disciplinas nuevas, no siempre lo mismo; BMX para todos (compitan o no); formar comunidad donde el que sabe comparte. Sección `#porque` en la página.
 - No pelear con nadie ni prometer de más: no decir "la primera" ni "la única", no nombrar a otras escuelas.
 - Nombre: no usar "Dorados de Chihuahua" (marca de los equipos profesionales).
 - Formulario de inscripción sin fecha de nacimiento ni datos médicos (menores; eso se ve en persona).
