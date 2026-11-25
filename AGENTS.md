@@ -10,7 +10,7 @@ Escuela presencial de BMX Race en Chihuahua. Proyecto con Jorge Acosta; Sebas ll
 ## Marca (25 nov 2026, propuesta en revisión)
 
 - Nombre: **Centauros BMX Race** (por Villa, "el Centauro del Norte", y porque corredor y bici van como uno solo). Falta revisar IMPI, dominio y redes.
-- Logo elegido (25 nov 2026): **corredor con cola de caballo** (versión limpia de Gemini, sin letras ni número en la placa): `diseno/marca/logo-principal-gemini.jpg` y `logo-principal.png` (sin fondo). En la página: mascota `public/img/centauro.webp` (calcomanía) e ícono/favicon = recorte del casco (`public/img/casco.webp`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192/512.png`). Se descartaron el arco (se confunde con tiro con arco) y el escudo. Pendiente: versiones a una tinta y sin texto (Gemini) y vector final de Edder para playeras y lonas.
+- **Logo oficial (25 nov 2026): corredor con rayas de velocidad** (la cola de caballo se quitó; las rayas son el guiño sutil al centauro). Original: `diseno/marca/logo-oficial-gemini.jpg`; sin fondo: `diseno/marca/logo-principal.png`. En la página: mascota `public/img/centauro.webp` e ícono/favicon = casco. Manual de identidad: https://claude.ai/artifact/VCkmgNmGMtMym56snYCsLp (Design System). Las versiones a una tinta de `diseno/marca/` aún tienen cola: rehacerlas. Pendiente vector de Edder.
 
 ## Datos confirmados
 
