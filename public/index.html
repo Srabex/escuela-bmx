@@ -3,11 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Escuela de BMX Race en Chihuahua</title>
-<meta name="description" content="Escuela de BMX Race en Chihuahua para niños desde 3 años: semillero con bici de balance, grupos por nivel y entrenadores corredores. Pista La Cantera y ciclopista de la Ciudad Deportiva.">
+<title>Centauros BMX Race · Escuela de BMX en Chihuahua</title>
+<meta name="description" content="Centauros BMX Race: escuela de BMX en Chihuahua para niños desde 3 años: semillero con bici de balance, grupos por nivel y entrenadores corredores. Pista La Cantera y ciclopista de la Ciudad Deportiva.">
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#151618">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,800;1,800;1,900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
@@ -41,6 +42,7 @@ a{color:inherit}
 .pend{display:inline-block;font:600 13px/1 Barlow,sans-serif;color:var(--pend);background:var(--pendBg);border:1.5px dashed currentColor;border-radius:5px;padding:4px 7px;vertical-align:middle;white-space:nowrap;font-style:normal;text-transform:none;letter-spacing:0}
 header.top{position:sticky;top:0;z-index:5;background:rgba(21,22,24,.94);backdrop-filter:blur(8px);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px max(5vw,18px);border-bottom:1px solid #2b2d31}
 .brand{display:flex;align-items:center;gap:10px;font:900 italic 24px/1 "Barlow Condensed",sans-serif;text-decoration:none;text-transform:uppercase}
+.brand img{object-fit:contain}.brand small{font-size:15px;color:var(--dirt);margin-left:2px}
 .brand .plate{background:var(--white);color:var(--asf);border-radius:10px 10px 4px 4px;padding:4px 9px 3px;font-size:22px}
 nav{display:flex;gap:22px;font-weight:600;font-size:15px}nav a{text-decoration:none;color:#cfcbc2}nav a:hover{color:#fff}
 @media(max-width:860px){nav{display:none}}
@@ -51,7 +53,7 @@ nav{display:flex;gap:22px;font-weight:600;font-size:15px}nav a{text-decoration:n
 .btn:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--red);outline-offset:3px}
 /* HERO */
 .hero{position:relative;overflow:hidden;background:var(--asf);color:var(--white);padding-top:clamp(36px,5vw,72px)}
-.hero::before{content:"BMX RACE";position:absolute;right:-2vw;top:-.12em;font:900 italic clamp(120px,22vw,300px)/1 "Barlow Condensed",sans-serif;color:transparent;-webkit-text-stroke:1.5px #2a2c31;white-space:nowrap;pointer-events:none}
+.hero::before{content:"CENTAUROS";position:absolute;right:-2vw;top:-.12em;font:900 italic clamp(120px,22vw,300px)/1 "Barlow Condensed",sans-serif;color:transparent;-webkit-text-stroke:1.5px #2a2c31;white-space:nowrap;pointer-events:none}
 .hgrid{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(24px,4vw,60px);align-items:center}
 .kicker{display:inline-flex;gap:10px;align-items:center;font:800 italic 20px/1 "Barlow Condensed",sans-serif;text-transform:uppercase;color:var(--dirt);margin-bottom:14px}
 .kicker::before{content:"";width:34px;height:4px;background:var(--red)}
@@ -59,6 +61,7 @@ nav{display:flex;gap:22px;font-weight:600;font-size:15px}nav a{text-decoration:n
 .hero p.lead{font-size:19px;color:#D7D3CA}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
 .track{width:100%;height:auto;display:block;filter:drop-shadow(0 24px 40px rgba(0,0,0,.45))}
+.mascota{width:100%;height:auto;display:block;filter:drop-shadow(0 26px 40px rgba(0,0,0,.5))}
 .stats{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:clamp(28px,4vw,56px);border-top:1px solid #2e3035}
 .stats div{padding:20px 16px 0 0}
 .stats strong{display:block;font:900 italic clamp(34px,5vw,54px)/1 "Barlow Condensed",sans-serif;color:#fff}
@@ -136,7 +139,7 @@ footer .brand{color:#fff;margin-bottom:12px}
 <div class="draft">Borrador para revisión del equipo · lo marcado como <span class="pend">Pendiente</span> falta confirmar</div>
 
 <header class="top">
-  <a class="brand" href="#inicio"><span class="plate">BMX</span> Escuela <span class="pend">Nombre pendiente</span></a>
+  <a class="brand" href="#inicio"><img src="img/icono-claro.webp" alt="" width="38" height="38"> Centauros <small>BMX Race</small></a>
   <nav><a href="#metodo">Método</a><a href="#niveles">Niveles</a><a href="#horarios">Horarios</a><a href="#precios">Precios</a><a href="#inscripcion">Inscripción</a></nav>
 </header>
 
@@ -144,7 +147,7 @@ footer .brand{color:#fff;margin-bottom:12px}
   <div class="wrap">
     <div class="hgrid">
       <div>
-        <div class="kicker">Escuela de BMX Race · Chihuahua</div>
+        <div class="kicker">Centauros BMX Race · Chihuahua</div>
         <h1>Entrena BMX con <em>corredores profesionales</em></h1>
         <p class="lead">Para niños desde los 3 años. Aprenden técnica de pista de verdad y se divierten en cada clase, con corredores que ruedan a su lado y enseñan con paciencia. Así se quedan, crecen y quieren volver.</p>
         <div class="cta">
@@ -152,54 +155,7 @@ footer .brand{color:#fff;margin-bottom:12px}
           <a class="btn ghost" data-wa="Quiero informes de la escuela." href="#">Pide informes</a>
         </div>
       </div>
-      <svg class="track" viewBox="0 0 560 460" role="img" aria-label="Pista de BMX vista desde arriba con colina de salida, partidor y semáforo de salida">
-        <defs>
-          <linearGradient id="dirtA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D08A4D"/><stop offset="1" stop-color="#9A5A2A"/></linearGradient>
-          <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#7a4520" opacity=".35"/><circle cx="4" cy="4" r=".6" fill="#f0c08c" opacity=".3"/></pattern>
-        </defs>
-        <rect x="10" y="10" width="540" height="440" rx="22" fill="#23262A"/>
-        <rect x="10" y="10" width="540" height="440" rx="22" fill="none" stroke="#33363b"/>
-        <!-- pasto del infield -->
-        <path d="M60 60 H500 V400 H60Z" fill="#2B3A2A" opacity=".55"/>
-        <!-- pista serpentina -->
-        <path id="tr" d="M110 70 H440 Q500 70 500 130 Q500 180 440 180 H140 Q80 180 80 240 Q80 300 140 300 H440 Q500 300 500 360 Q500 410 440 410 H170" fill="none" stroke="url(#dirtA)" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M110 70 H440 Q500 70 500 130 Q500 180 440 180 H140 Q80 180 80 240 Q80 300 140 300 H440 Q500 300 500 360 Q500 410 440 410 H170" fill="none" stroke="url(#grain)" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M110 70 H440 Q500 70 500 130 Q500 180 440 180 H140 Q80 180 80 240 Q80 300 140 300 H440 Q500 300 500 360 Q500 410 440 410 H170" fill="none" stroke="#F1D3A8" stroke-width="2" stroke-dasharray="2 14" opacity=".55"/>
-        <!-- lomas (rhythm) -->
-        <g fill="#7E4A22" opacity=".55">
-          <rect x="210" y="46" width="10" height="48" rx="4"/><rect x="250" y="46" width="10" height="48" rx="4"/><rect x="290" y="46" width="10" height="48" rx="4"/><rect x="330" y="46" width="10" height="48" rx="4"/>
-          <rect x="240" y="276" width="10" height="48" rx="4"/><rect x="300" y="276" width="10" height="48" rx="4"/><rect x="360" y="276" width="10" height="48" rx="4"/>
-          <rect x="300" y="156" width="12" height="48" rx="4"/><rect x="220" y="156" width="12" height="48" rx="4"/>
-        </g>
-        <!-- colina y partidor -->
-        <rect x="40" y="34" width="86" height="72" rx="8" fill="#B06A33"/>
-        <rect x="40" y="34" width="86" height="72" rx="8" fill="url(#grain)"/>
-        <rect x="118" y="38" width="10" height="64" rx="2" fill="#E1251B"/>
-        <g fill="#F6F4EF" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="9">
-          <text x="106" y="47">1</text><text x="106" y="63">2</text><text x="106" y="79">3</text><text x="106" y="95">4</text>
-        </g>
-        <!-- meta -->
-        <g transform="translate(160 384)">
-          <rect width="8" height="52" fill="#F6F4EF"/><rect y="0" width="8" height="8" fill="#151618"/><rect y="16" width="8" height="8" fill="#151618"/><rect y="32" width="8" height="8" fill="#151618"/><rect y="48" width="8" height="4" fill="#151618"/>
-        </g>
-        <!-- semáforo ProGate -->
-        <g transform="translate(150 112)">
-          <rect width="34" height="104" rx="8" fill="#0F1012" stroke="#3a3d42"/>
-          <circle class="lamp l1" cx="17" cy="18" r="9" fill="#E1251B"/>
-          <circle class="lamp l2" cx="17" cy="40" r="9" fill="#F3B41B"/>
-          <circle class="lamp l3" cx="17" cy="62" r="9" fill="#F3B41B"/>
-          <circle class="lamp l4" cx="17" cy="84" r="9" fill="#35C759"/>
-        </g>
-        <!-- placa flotante -->
-        <g transform="translate(360 214)">
-          <path d="M0 18 Q0 0 18 0 H86 Q104 0 104 18 V58 Q104 64 98 64 H6 Q0 64 0 58Z" fill="#F6F4EF"/>
-          <circle cx="14" cy="14" r="3" fill="#bdb8ae"/><circle cx="90" cy="14" r="3" fill="#bdb8ae"/>
-          <text x="52" y="54" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-style="italic" font-weight="900" font-size="46" fill="#151618">27</text>
-        </g>
-        <g font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="#B3AFA6" letter-spacing="1">
-          <text x="44" y="126">SALIDA</text><text x="176" y="444">META</text>
-        </g>
-      </svg>
+      <img class="mascota" src="img/centauro.webp" alt="Corredor de BMX de Centauros con cola de caballo, la mascota de la escuela" width="1100" height="876">
     </div>
     <div class="stats">
       <div><strong>3+</strong><span>años para empezar</span></div>
@@ -383,7 +339,8 @@ footer .brand{color:#fff;margin-bottom:12px}
   <div class="wrap pendlist">
     <h3>Pendientes para la versión final</h3>
     <ul>
-      <li>Nombre, logo y colores de la escuela</li>
+      <li>Logo final en vector (Edder) y mascota sin las letras que inventó Gemini</li>
+      <li>Revisar el nombre Centauros en el IMPI, dominio y redes</li>
       <li>Hora del Semillero y lugar del bowl</li>
             <li>Precios finales, inscripción y clase muestra</li>
       <li>Trayectoria y foto de Fabián; nombres de auxiliares</li>
@@ -398,7 +355,7 @@ footer .brand{color:#fff;margin-bottom:12px}
 
 <footer class="band">
   <div class="wrap">
-    <div class="brand"><span class="plate">BMX</span> Escuela de BMX Race · Chihuahua</div>
+    <div class="brand"><img src="img/icono-claro.webp" alt="" width="38" height="38"> Centauros <small>BMX Race · Chihuahua</small></div>
     <p>Pista La Cantera · Ciclopista de la Ciudad Deportiva</p>
     <p>WhatsApp: 614 235 5166</p>
   </div>
@@ -409,7 +366,7 @@ footer .brand{color:#fff;margin-bottom:12px}
 <script>
 {
   const WA = "526142355166";
-  const ORIGEN = "Hola, vengo de la página de la escuela de BMX.";
+  const ORIGEN = "Hola, vengo de la página de Centauros BMX Race.";
   const liga = (txt) => "https://wa.me/" + WA + "?text=" + encodeURIComponent(ORIGEN + " " + txt);
   document.querySelectorAll("[data-wa]").forEach(a => { a.href = liga(a.dataset.wa); a.target = "_blank"; a.rel = "noopener"; });
 

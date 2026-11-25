@@ -1,4 +1,4 @@
-# Escuela BMX (nombre por definir)
+# Centauros BMX Race (escuela de BMX)
 
 Escuela presencial de BMX Race en Chihuahua. Proyecto con Jorge Acosta; Sebas lleva administración, programa y plataforma. **Independiente de BMX Mentors (plataforma de Nacho Cattana): no mezclar.** Nacho solo aparece como invitado ocasional a clínicas (sin nombre en el sitio por ahora).
 
@@ -6,6 +6,11 @@ Escuela presencial de BMX Race en Chihuahua. Proyecto con Jorge Acosta; Sebas ll
 
 - Cascarón de landing en `public/index.html` (HTML/CSS/JS estático, sin compilación; modelo Luigi's Clean). Todo lo que falta está marcado con `<span class="pend">Pendiente</span>` y hay una lista de pendientes al final de la página. Banner de "Borrador interno" arriba y `noindex`: quitar ambos al publicar.
 - Publicado de prueba en el Worker `escuela-bmx`: https://escuela-bmx.srab17-6.workers.dev (build vacío, deploy `npx wrangler deploy`, producción en `main`). Sin dominio todavía.
+
+## Marca (25 nov 2026, propuesta en revisión)
+
+- Nombre: **Centauros BMX Race** (por Villa, "el Centauro del Norte", y porque corredor y bici van como uno solo). Falta revisar IMPI, dominio y redes.
+- Sistema: mascota = corredor con cola de caballo (Gemini, `public/img/centauro.webp`, recortada con borde tipo calcomanía, sin voltear porque trae letras); ícono = "C" con arco y flecha (`public/img/icono-claro.webp` / `icono-oscuro.webp`, también favicon e íconos). Originales de Gemini y bocetos en `diseno/`. Pendiente: vector final de Edder y mascota sin letras inventadas (C24, parches).
 
 ## Datos confirmados
 
