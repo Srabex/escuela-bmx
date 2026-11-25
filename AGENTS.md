@@ -10,7 +10,9 @@ Escuela presencial de BMX Race en Chihuahua. Proyecto con Jorge Acosta; Sebas ll
 ## Marca (25 nov 2026, propuesta en revisión)
 
 - Nombre: **Centauros BMX Race** (por Villa, "el Centauro del Norte", y porque corredor y bici van como uno solo). Falta revisar IMPI, dominio y redes.
-- **Logo oficial (25 nov 2026): corredor con rayas de velocidad** (la cola de caballo se quitó; las rayas son el guiño sutil al centauro). Original: `diseno/marca/logo-oficial-gemini.jpg`; sin fondo: `diseno/marca/logo-principal.png`. En la página: mascota `public/img/centauro.webp` e ícono/favicon = casco. Manual de identidad: https://claude.ai/artifact/VCkmgNmGMtMym56snYCsLp (Design System). Las versiones a una tinta de `diseno/marca/` aún tienen cola: rehacerlas. Pendiente vector de Edder.
+- **Logo oficial (25 nov 2026): corredor con rayas de velocidad** (la cola de caballo se quitó; las rayas son el guiño sutil al centauro). Original: `diseno/marca/logo-oficial-gemini.jpg`; sin fondo: `diseno/marca/logo-principal.png`. En la página: mascota `public/img/centauro.webp` e ícono/favicon = casco. Manual de identidad: https://claude.ai/artifact/VCkmgNmGMtMym56snYCsLp (Design System). Versiones a una tinta (negro/blanco), mascota calcomanía y casco en `diseno/marca/`; manual en PDF `diseno/marca/Centauros-BMX-Race-Manual-de-identidad.pdf` (fuente `manual.html`) con mockups de merch en `diseno/marca/aplicaciones/`. Pendiente vector de Edder.
+- Página alineada al manual (25 nov 2026): fondo blanco hueso #F6F4EF, logo una tinta blanco en el pie, OG `public/og.jpg` (fuente `diseno/og.html`, mascota; cambiar por foto real cuando haya), `site.webmanifest`, `favicon.ico`.
+- Documentos con la marca en `diseno/documentos/` (propuesta de pago para Fabián, HTML → PDF con Playwright).
 
 ## Datos confirmados
 
@@ -21,7 +23,7 @@ Escuela presencial de BMX Race en Chihuahua. Proyecto con Jorge Acosta; Sebas ll
 - Entrenador principal: **Fabián** (corredor de BMX). Auxiliares sin nombre todavía (Carlos Luis Mateo no ha confirmado: no ponerlo).
 - Ya tienen sensores y ProGate.
 - Gimnasio, nutriólogo y psicólogo deportivo: ideas de Jorge, sin convenio todavía (marcados como pendiente).
-- WhatsApp de prueba: el de Sebas, 614 235 5166 (`WA` en el script). Mensajes empiezan "Hola, vengo de la página de la escuela de BMX." Cambiar a "vengo de <dominio>" cuando haya dominio.
+- WhatsApp de prueba: el de Sebas, 614 235 5166 (`WA` en el script). Mensajes empiezan "Hola, vengo de la página de Centauros BMX Race." Cambiar a "vengo de <dominio>" cuando haya dominio.
 
 ## Tono y mensaje
 
